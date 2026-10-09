@@ -47,10 +47,24 @@ Requires Python 3.10 or newer.
 
 ### Example commands
 
+Clone the repository and enter the project directory:
+
+```bash
+git clone https://github.com/Sudhakar-nunavath/flock-energy-api.git
+cd flock-energy-api
+```
+
+Create and activate a virtual environment, then install dependencies:
+
 ```bash
 python -m venv venv
 source venv/bin/activate
 python -m pip install -r requirements.txt
+```
+
+Create your local environment file:
+
+```bash
 cp .env.example .env
 ```
 
